@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "design-system": "workspace:*",
-    "next": "*",
-    "react": "*",
-    "react-dom": "*"
+    "next": "canary",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
