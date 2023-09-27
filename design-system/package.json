@@ -1,0 +1,32 @@
+{
+  "name": "design-system",
+  "version": "0.0.0",
+  "files": [
+    "dist/*"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./components": "./src/components/index.ts",
+    "./components/*": "./src/components/*/index.ts"
+  },
+  "typesVersions": {
+    "*": {
+      "components": [
+        "./src/components/index.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "react": "latest"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1"
+  }
+}
